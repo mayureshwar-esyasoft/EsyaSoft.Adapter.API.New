@@ -1,0 +1,20 @@
+<UtilitiesDeviceERPSmartMeterRegisterCreateConfirmation xmlns='http://sap.com/xi/SAPGlobal20/Global'
+    xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/'>
+    <MessageHeader xmlns=''>
+        <UUID>fbed9984-0c29-407e-a348-a5f6390d8d6f</UUID>
+        <CreationDateTime>2024-01-10T11:54:11Z</CreationDateTime>
+    </MessageHeader>
+    <UtilitiesDevice xmlns=''>
+        <ID xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:nil='true' />
+    </UtilitiesDevice>
+    <Log xmlns=''>
+        <BusinessDocumentProcessingResultCode>5</BusinessDocumentProcessingResultCode>
+        <MaximumLogItemSeverityCode>3</MaximumLogItemSeverityCode>
+        <Item>
+            <TypeID>61208</TypeID>
+            <SeverityCode>3</SeverityCode>
+            <Note>UtilitiesDeviceERPSmartMeterRegisterCreateRequest/MessageHeader/CreationDateTime
+                is null or empty.</Note>
+        </Item>
+    </Log>
+</UtilitiesDeviceERPSmartMeterRegisterCreateConfirmation>

@@ -1,0 +1,21 @@
+<UtilitiesDeviceERPSmartMeterCreateConfirmation xmlns='http://sap.com/xi/SAPGlobal20/Global'
+    xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/'>
+    <MessageHeader xmlns=''>
+        <UUID>d5306be8-96bf-4a4c-941f-df5aa9b87004</UUID>
+        <ReferenceUUID>15316ff0-d304-1ede-a891-49501ee03d09</ReferenceUUID>
+        <CreationDateTime>2023-12-22T05:24:00Z</CreationDateTime>
+        <RecipientBusinessSystemID>AEML</RecipientBusinessSystemID>
+    </MessageHeader>
+    <UtilitiesDevice xmlns=''>
+        <ID>46126719</ID>
+    </UtilitiesDevice>
+    <Log xmlns=''>
+        <BusinessDocumentProcessingResultCode>3</BusinessDocumentProcessingResultCode>
+        <MaximumLogItemSeverityCode>1</MaximumLogItemSeverityCode>
+        <Item>
+            <TypeID>00000</TypeID>
+            <SeverityCode>1</SeverityCode>
+            <Note>Request Processed Successfully</Note>
+        </Item>
+    </Log>
+</UtilitiesDeviceERPSmartMeterCreateConfirmation>

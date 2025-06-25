@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<n0:UtilitiesDeviceERPSmartMeterRegisterCreateRequest
+    xmlns:n0="http://sap.com/xi/SAPGlobal20/Global"
+    xmlns:prx="urn:sap.com:proxy:P10:/1SAI/TAS7919B8D106098148EF74:740">
+    <MessageHeader>
+        <UUID>005056a7-5d1c-1eee-abc0-605cbdf33b4a</UUID>
+        <CreationDateTime>2024-01-08T08:50:44Z</CreationDateTime>
+        <SenderBusinessSystemID>P10470</SenderBusinessSystemID>
+    </MessageHeader>
+    <UtilitiesDevice>
+        <ID>49592131</ID>
+        <Register>
+            <StartDate>2024-01-08</StartDate>
+            <EndDate>9999-12-31</EndDate>
+            <UtilitiesMeasurementTaskID>000000000006229956</UtilitiesMeasurementTaskID>
+            <UtilitiesObjectIdentificationSystemCodeText>KWH_TOTAL</UtilitiesObjectIdentificationSystemCodeText>
+            <UtiltiesMeasurementTaskCategoryCode>5</UtiltiesMeasurementTaskCategoryCode>
+            <UtilitiesDivisionCategoryCode>1</UtilitiesDivisionCategoryCode>
+            <TimeZoneCode>INDIA</TimeZoneCode>
+            <Specifications>
+                <MeasureUnitCode>KWH</MeasureUnitCode>
+                <DecimalValuePrecision>
+                    <TotalDigitNumberValue>6</TotalDigitNumberValue>
+                </DecimalValuePrecision>
+                <MeterReadingResultAdjustmentFactorValue>1.0</MeterReadingResultAdjustmentFactorValue>
+            </Specifications>
+        </Register>
+        <SmartMeter>
+            <UtilitiesAdvancedMeteringSystemID>AEML</UtilitiesAdvancedMeteringSystemID>
+        </SmartMeter>
+    </UtilitiesDevice>
+</n0:UtilitiesDeviceERPSmartMeterRegisterCreateRequest>

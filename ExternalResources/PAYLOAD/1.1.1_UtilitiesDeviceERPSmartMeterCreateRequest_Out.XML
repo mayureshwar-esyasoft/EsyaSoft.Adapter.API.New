@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<n0:UtilitiesDeviceERPSmartMeterCreateRequest xmlns:n0="http://sap.com/xi/SAPGlobal20/Global"
+    xmlns:prx="urn:sap.com:proxy:Q10:/1SAI/TAS18AA78B65BDF11554DBE:740">
+    <MessageHeader>
+        <UUID>15316ff0-d304-1eee-a9ab-f099e4508f04</UUID>
+        <CreationDateTime>2023-12-28T09:00:16Z</CreationDateTime>
+        <SenderBusinessSystemID>Q10470</SenderBusinessSystemID>
+    </MessageHeader>
+    <UtilitiesDevice>
+        <ID>46126725</ID>
+        <StartDate>2016-01-01</StartDate>
+        <EndDate>9999-12-31</EndDate>
+        <SerialID>SM100RR09</SerialID>
+        <MaterialID>2100241728</MaterialID>
+        <IndividualMaterialManufacturerInformation>
+            <PartyInternalID>GENUS</PartyInternalID>
+        </IndividualMaterialManufacturerInformation>
+        <SmartMeter>
+            <UtilitiesAdvancedMeteringSystemID>AEML</UtilitiesAdvancedMeteringSystemID>
+        </SmartMeter>
+    </UtilitiesDevice>
+</n0:UtilitiesDeviceERPSmartMeterCreateRequest>

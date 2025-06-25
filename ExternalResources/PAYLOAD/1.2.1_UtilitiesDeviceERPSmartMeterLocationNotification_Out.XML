@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<n0:UtilitiesDeviceERPSmartMeterLocationNotification xmlns:n0="http://sap.com/xi/SAPGlobal20/Global"
+    xmlns:prx="urn:sap.com:proxy:P10:/1SAI/TAS251706B30E6C816C5B25:740">
+    <MessageHeader>
+        <UUID>005056b4-674d-1eee-abbb-a6315c361921</UUID>
+        <CreationDateTime>2024-01-08T04:20:02Z</CreationDateTime>
+        <SenderBusinessSystemID>P10470</SenderBusinessSystemID>
+    </MessageHeader>
+    <UtilitiesDevice logicalLocationListCompleteTransmissionIndicator="true"
+        locationListCompleteTransmissionIndicator="true">
+        <ID>48747540</ID>
+        <LogicalLocation>
+            <StartDate>2023-09-09</StartDate>
+            <EndDate>2024-01-07</EndDate>
+            <LogicalInstallationPointID>1000005315792</LogicalInstallationPointID>
+        </LogicalLocation>
+        <Location>
+            <StartDate>2023-09-09</StartDate>
+            <EndDate>2024-01-07</EndDate>
+            <InstallationPointID>6001792254</InstallationPointID>
+            <InstallationPointAddressInformation>
+                <StreetPostalCode>401107</StreetPostalCode>
+                <CityName>THANE</CityName>
+                <StreetName>BLDG NO:30 ; D B OZONE ; ZONE --V</StreetName>
+                <CountryCode>IN</CountryCode>
+                <RegionCode>MAH</RegionCode>
+                <TimeZoneCode>INDIA</TimeZoneCode>
+            </InstallationPointAddressInformation>
+            <InstallationPointHierarchyRelationship>
+                <ParentInstallationPointID>1000553062</ParentInstallationPointID>
+            </InstallationPointHierarchyRelationship>
+            <ModificationInformation>
+                <InstallationDate>2023-09-09</InstallationDate>
+                <RemoveDate>2024-01-08</RemoveDate>
+                <TimeZoneCode>INDIA</TimeZoneCode>
+            </ModificationInformation>
+        </Location>
+        <SmartMeter>
+            <UtilitiesAdvancedMeteringSystemID>AEML</UtilitiesAdvancedMeteringSystemID>
+        </SmartMeter>
+    </UtilitiesDevice>
+</n0:UtilitiesDeviceERPSmartMeterLocationNotification>

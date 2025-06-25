@@ -1,0 +1,6 @@
+@EsyaSoft.Adapter.API_HostAddress = http://localhost:5124
+
+GET {{EsyaSoft.Adapter.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
